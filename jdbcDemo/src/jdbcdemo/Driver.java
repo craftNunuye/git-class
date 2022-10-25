@@ -1,5 +1,7 @@
 package jdbcdemo;
 
+// This comment was added on git edit.
+
 import java.sql.*;
 public class Driver {
 
