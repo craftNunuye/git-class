@@ -7,6 +7,8 @@ public class Driver {
 
 	public static void main(String[] args) {
 		try {
+			
+			System.out.println("hello world.");
 			//1. Get a connection to database
 			
 			Connection myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/employees", "root", "M!23944l");
@@ -27,4 +29,6 @@ public class Driver {
 			exc.printStackTrace();
 		}
 	}
+	
+
 }
